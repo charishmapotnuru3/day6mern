@@ -1,0 +1,59 @@
+* what is PEP8?
+--> PEP 8 stands for Python Enhancement Proposal 8. It is a style guide for Python code, written by Guido van Rossum, Barry Warsaw, and Nick Coghlan.
+    PEP 8 outlines coding conventions for writing Python code in a way that is easy to read and understand by other programmers.
+  
+   -Indentation: Using 4 spaces for indentation.
+   -Line Length: Keeping lines of code to a maximum of 79 characters.
+   -Import Statements: Importing modules on separate lines.
+   -Naming Conventions: Following conventions for naming variables, functions, and classes.
+   -Comments: Writing clear and concise comments to explain code.
+   -Blank Lines: Using blank lines to separate sections of code logically.
+   -Whitespaces: Using whitespaces appropriately around operators and after commas.
+     
+*what are operators? What is use of walrus operator?
+-->Operators refer to special symbols that perform operations on values and variables. 
+     Arithmetic Operators: +, -, *, /, %, // , **.
+     Comparison Operators: ==, !=, <, >, <=, >=.
+     Logical Operators: and, or, not.
+     Assignment Operators: =, +=, -=, *=, /=, %=, //=, **=.
+     Bitwise Operators: &, |, ^, ~, <<, >>.
+     Identity Operators: is, is not.
+    -The walrus operator := is a relatively new addition to Python. It is also known as the assignment expression operator. The main purpose of the walrus operator
+      is to assign a value to a variable as part of an expression. 
+      -Ex:# Without walrus operator
+            x = 10
+           if x > 5:
+              y = x * 2
+           print(y)
+*what is for loop?why for loop is used?
+-->A for loop is a control flow statement in programming that allows you to iterate over a sequence  and execute a block of code for each item in the sequence.
+   It is used for repetitive tasks where you want to perform the same operation on each element of a sequence.
+        syntax:for item in sequence
+        ex:fruits = ["apple", "banana", "cherry"]
+           for fruit in fruits:
+           print(fruit)
+-->use:
+        -The loop starts by iterating over each item in the specified sequence.
+        -For each iteration, the loop assigns the current item to the variable specified after the for keyword.
+        -The indented code block beneath the for statement is then executed for each item in the sequence.
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+          # With walrus operator
+           x = 10
+           if (y := x * 2) > 5:
+            print(y)
